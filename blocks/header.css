@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "roboto";
+  src: url(/fonts/Roboto-Regular.ttf);
+}
+.header {
+  background-color: #21E9C5;
+}
+.header__body {
+  width: 660px;
+  margin: 0 auto;
+}
+.header__img_logo {
+  position: absolute;
+  width: 90px;
+  margin-top: 24px;
+  margin-left: -170px;
+}
+.header__title {
+  font-size: 102px;
+  font-family: "roboto";
+  text-align: center;
+  line-height: 101px;
+  margin-top: 75px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+.header__subtitle {
+  font-size: 21px;
+  font-family: "roboto";
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 550px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu__item {
+  font-size: 14px;
+  font-family: "roboto";
+  list-style: none;
+  margin: 30px 25px;
+}
+
+.img__card {
+  display: block;
+  margin: 0 auto;
+  margin-top: -520px;
+}
+
+.why__body {
+  width: 970px;
+  margin: 0 auto;
+}
+.why__title {
+  font-size: 102px;
+  font-family: "roboto";
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.why__clearfix {
+  clear: both;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blocks__1 {
+  flex-basis: 48%;
+  height: 500px;
+  width: 472px;
+  border: solid #E9E9EC 1px;
+  margin-right: 37px;
+  margin-bottom: 27px;
+}
+.blocks__text {
+  margin: 30px 0 0px 30px;
+}
+.blocks__txt2 {
+  font-size: 16px;
+  font-family: "roboto";
+  margin-bottom: 10px;
+}
+.blocks__txt1 {
+  font-size: 39px;
+  font-family: "roboto";
+}
+.blocks__img1 {
+  width: 472px;
+  margin-top: 145px;
+}
+.blocks__img2 {
+  width: 472px;
+  margin-top: 106px;
+}
+.blocks__img3 {
+  width: 472px;
+  margin-top: 107px;
+}
+.blocks__img4 {
+  width: 472px;
+  margin-top: 22px;
+}
+.blocks__2 {
+  flex-basis: 48%;
+  height: 500px;
+  width: 472px;
+  border: solid #E9E9EC 1px;
+  margin-bottom: 27px;
+}
+.blocks__3 {
+  flex-basis: 48%;
+  height: 500px;
+  width: 472px;
+  border: solid #E9E9EC 1px;
+  margin-right: 37px;
+}
+.blocks__4 {
+  flex-basis: 48%;
+  height: 500px;
+  width: 472px;
+  border: solid #E9E9EC 1px;
+}
+
+.app {
+  background-color: #21E9C5;
+  margin-top: 100px;
+  padding-top: 160px;
+  padding-bottom: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.app__google {
+  width: 180px;
+  height: 54px;
+  margin-right: 30px;
+}
+.app__store {
+  width: 180px;
+  height: 54px;
+}
+
+.appinto {
+  background-color: #A2FECE;
+  border: solid black 2px;
+  box-shadow: 5px 5px black;
+  width: 955px;
+  height: 387px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-basis: 955px;
+  margin: 0px 200px 0px 200px;
+  margin-bottom: 60px;
+}
+.appinto__phone {
+  width: 327px;
+  height: 451px;
+  margin-top: -67px;
+}
+
+.bottom {
+  margin: 82px 0 0 71px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottom__bottom {
+  flex-basis: 95%;
+}
+.bottom__logo {
+  width: 102px;
+  height: 26px;
+  margin-top: 70px;
+}
+
+.list {
+  margin: 70px 0 23px 0;
+  margin-left: 100px;
+}
+.list__title {
+  font-size: 16px;
+  font-family: "roboto";
+  color: #565959;
+  margin-bottom: 25px;
+}
+.list__base {
+  font-size: 16px;
+  font-family: "roboto";
+  margin: 14px 0 14px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__img_logo {
+    width: 83px;
+    margin-top: 26px;
+    margin-left: -140px;
+  }
+  .header__title {
+    font-size: 95px;
+    font-family: "roboto";
+    line-height: 97px;
+  }
+  .header__subtitle {
+    font-size: 19px;
+    font-family: "roboto";
+  }
+  .menu__item {
+    font-size: 13px;
+    font-family: "roboto";
+  }
+  .img__card {
+    margin-top: -525px;
+    width: 400px;
+  }
+  .why__body {
+    width: 840px;
+  }
+  .why__title {
+    font-size: 95px;
+    font-family: "roboto";
+    margin-top: 42px;
+    margin-bottom: 40px;
+  }
+  .blocks__1 {
+    flex-basis: 410px;
+    height: 450px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .blocks__text {
+    margin: 22px 0 0px 22px;
+  }
+  .blocks__txt2 {
+    font-size: 15px;
+    font-family: "roboto";
+  }
+  .blocks__txt1 {
+    font-size: 37px;
+    font-family: "roboto";
+  }
+  .blocks__img1 {
+    margin-top: 135px;
+  }
+  .blocks__img2 {
+    margin-top: 99px;
+  }
+  .blocks__img3 {
+    margin-top: 100px;
+  }
+  .blocks__img4 {
+    margin-top: 23px;
+  }
+  .blocks__2 {
+    flex-basis: 410px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+  .blocks__3 {
+    flex-basis: 410px;
+    height: 450px;
+    margin-right: 20px;
+  }
+  .blocks__4 {
+    flex-basis: 410px;
+    height: 450px;
+  }
+  .app {
+    margin-top: 90px;
+    padding-top: 140px;
+    padding-bottom: 65px;
+  }
+  .app__google {
+    width: 160px;
+    height: 46px;
+    margin-right: 20px;
+  }
+  .app__store {
+    width: 160px;
+    height: 46px;
+  }
+  .appinto {
+    box-shadow: 4px 4px black;
+    margin-bottom: 35px;
+  }
+  .appinto__phone {
+    width: 310px;
+    height: 445px;
+    margin-top: -61px;
+  }
+  .bottom {
+    margin: 82px 0 0 71px;
+  }
+  .bottom__bottom {
+    flex-basis: 95%;
+  }
+  .bottom__logo {
+    width: 102px;
+    height: 26px;
+    margin-top: 70px;
+  }
+  .list {
+    margin: 70px 0 23px 0;
+    margin-left: 100px;
+  }
+  .list__title {
+    margin-bottom: 25px;
+  }
+  .list__base {
+    margin: 14px 0 14px 0;
+  }
+}/*# sourceMappingURL=header.css.map */
